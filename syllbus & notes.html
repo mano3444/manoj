@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllabus & Notes - notesbakkery</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo">NotesBakery</label>
+        <ul>
+            <li><a class="active" href="index.html"> HOME</a> </li>
+            <li><a href="syllbus & notes.html"> Syllabus & Notes</a></li>
+            <li><a href="">Quiz program</a></li>
+            <li><a href="">Blog</a></li>
+            <li> <a href="">About us </a></li>
+            <li><a href="">Contact us</a></li>
+            <li> <a href="">FAQ's</a></li>
+        </ul>
+    </nav>
+
+    <div class="search-container">
+        <input type="text" id="searchBox" placeholder="Search University...">
+        <div class="results" id="resultList"></div>
+    </div>
+
+    <div class="notes">
+        <h1>Explore Your Notes
+            <hr>
+        </h1>
+        <p> NotesBakery is bringing you th best top-quality notes or all branches
+            and program of Rajasthan's goverment-approved universities, completely free. along with this, you' ll get
+            access to
+            quizzes for every subject. so, enhance your study experince now with NotesBakery!your One-stop resources for
+            academic excellence across Rajasthan! NotesBakery
+            offers
+            complete information on all universities in Rajasthan.</p>
+        <h4>EXPLORE Rajasthan university
+            <hr>
+        </h4>
+    </div>
+    <br>
+        <div class="university-list" id="universityList">
+            <mark class="highlight">
+            <div class="university" id="uni1" onclick="toggleAccordion(1)">
+               <a href="Agujodhpur/index.html" class="link"> <h3> 1. Agriculture University Jodhpur  </a> <i class="fa fa-angle-double-down" style="margin-left: 76%;"></i>
+                </h3>
+                <div class="accordion" id="acc1"> PROGRAMS <br>
+
+                    <ul>
+                        <a href="">
+                            <li>B.Sc. hons , </li>
+                        </a>
+                        <a href="">
+                            <li> M.sc. </li>
+                        </a>
+                        <a href="">
+                            <li> B.Tech </li>
+                        </a>
+                        <a href="">
+                            <li> MBA </li>
+
+                        </a>
+                        <a href="">
+                            <li> PHD </li>
+                        </a>
+                        <a href="">
+                            <li> D.ASEI </li>
+                        </a>
+                    </ul>
+
+
+                </div>
+            </div>
+            <div class="university" id="uni2" onclick="toggleAccordion(2)">
+                <h3>2. Agriculture University Kota <i class="fa fa-angle-double-down" style="margin-left: 78.4%;"></i>
+                </h3>
+                <div class="accordion" id="acc2"> PROGRAMS <br> <br>
+
+                    <ul>
+                        <a href="">
+                            <li> B.Sc. Agriculture Hons , </li>
+                        </a>
+                        <a href="">
+                            <li> B.Sc. Hons , </li>
+                        </a>
+                        <a href="">
+                            <li> M.Sc. (Horticulture) , </li>
+                        </a>
+                        <a href="">
+                            <li> P.HD. , </li>
+                        </a>
+                        <a href="">
+                            <li> M.Sc. (Forestry)  </li>
+                        </a>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni3" onclick="toggleAccordion(3)">
+                <h3>3. Dr. Sarvepalli Radhakrishan Rajasthan Ayurved University <i class="fa fa-angle-double-down"
+                        style="margin-left: 58.2%;"></i></h3>
+                <div class="accordion" id="acc3"> PROGRAMS <br> <br>
+
+                    <ul class="course">
+                        <a href=""><li> B.A.M.S ,</li></a>
+                        <a href=""><li> B.U.M.S ,</li></a>
+                        <a href=""><li> B.H.M.S ,</li></a>
+                        <a href=""><li> B.N.Y.s ,</li></a>
+                        <a href=""><li>Dan & P</li></a>
+                        <a href=""><li>B.Sc (Ayurved Nursing), </li></a> 
+                        <a href=""><li>Yoga & Naturopathy,</li></a>
+                        <a href=""><li> Osteopathy & Marma Chikista ,</li></a>
+                        <a href=""><li> Panchkarma Technical Assistant,</li></a> <br> <br>
+                        <a href=""><li> M.D ,</li></a>
+                        <a href=""><li> Ayush Pharmacy , </li></a>
+                        <a href=""><li>Ph.D</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni4" onclick="toggleAccordion(4)">
+                <h3>4. Govind Guru Janjatiya University <i class="fa fa-angle-double-down" style="margin-left: 74.4%;"></i> </h3>
+                <div class="accordion" id="acc4"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>M.A. ,</li></a>
+                       <a href=""><li> M.Ed. ,</li></a>
+                       <a href=""><li> M.B.A</li></a>
+                       <a href=""><li>Pg Diploma</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni5" onclick="toggleAccordion(5)">
+                <h3>5. Jagadguru Ramanandachary Rajasthan sanskrit University <i class="fa fa-angle-double-down" style="margin-left: 57.4%;"></i> </h3>
+                <div class="accordion" id="acc5"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>M.A. ,</li></a>
+                       <a href=""><li> Bechlor in Sanskrit Steam(Sanskrit) ,</li></a>
+                       <a href=""><li> Shikshashastri (Sanskrit) </li></a>
+                       <a href=""><li>B.Sc </li></a>
+                       <a href=""><li> M.Phill.</li></a>
+                       <a href=""><li> Sanyuktacharya (Sanskrit) </li></a>
+                       <a href=""><li> M.sc.</li></a>
+                       <a href=""><li>P.G.D.C.A. </li></a>
+                       <a href=""><li> Pg Diploma  </li></a>
+                       <a href=""><li> </li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni6" onclick="toggleAccordion(6)">
+                <h3>6. Jai NArayan Vyas University <i class="fa fa-angle-double-down" style="margin-left: 77.5%;"></i> </h3>
+                <div class="accordion" id="acc6"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>M.A. ,</li></a>
+                       <a href=""><li> M.com.,</li></a>
+                       <a href=""><li> B.A </li></a>
+                       <a href=""><li>B.Com. </li></a>
+                       <a href=""><li> B.Sc. </li></a>
+                       <a href=""><li> B.Ed </li></a>
+                       <a href=""><li> B.C.A</li></a>
+                       <a href=""><li>L.L.B. </li></a>
+                       <a href=""><li> B.SC (Home Science) </li></a>
+                       <a href=""><li> B.Tech </li></a>
+                       <a href=""><li> M.B.A </li></a>
+                       <a href=""><li> M.Sc </li></a>
+                       <a href=""><li> M.Phill. </li></a>
+                       <a href=""><li> M.Ed.</li></a>
+                       <a href=""><li> B.A Hons </li></a>
+                       <a href=""><li> B.P.E.D</li></a>
+                       <a href=""><li> M.Tech </li></a> <br> <br>
+                       <a href=""><li> M.C.A</li></a>
+                       <a href=""><li> B.Arch. </li></a>
+                       <a href=""><li> B.B.A </li></a>
+                       <a href=""><li> M.F.A </li></a>
+                       <a href=""><li> M.Sc (Home Science) </li></a>
+                       <a href=""><li> D.Pharmacy </li></a>
+                       <a href=""><li> M.J.M.C </li></a>
+                       <a href=""><li> L.L.M </li></a>
+                       <a href=""><li> Pg Diploma </li></a>
+                       <a href=""><li> B.Pharmacy </li></a>
+                       <a href=""><li> M.Pharmacy </li></a>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni6" onclick="toggleAccordion(7)">
+                <h3>7. Maharaja Ganga Singh University <i class="fa fa-angle-double-down" style="margin-left: 74%;"></i> </h3>
+                <div class="accordion" id="acc7"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>M.A. ,</li></a>
+                       <a href=""><li> M.com.,</li></a>
+                       <a href=""><li> B.A </li></a>
+                       <a href=""><li>B.Com. </li></a>
+                       <a href=""><li> B.Sc. </li></a>
+                       <a href=""><li> B.Ed </li></a>
+                       <a href=""><li> B.C.A</li></a>
+                       <a href=""><li>LL.B. </li></a>
+                       
+                       <a href=""><li> M.B.A </li></a>
+                       <a href=""><li> M.Sc </li></a>
+                       <a href=""><li> M.Phill. </li></a>
+                       <a href=""><li> M.Ed.</li></a>
+                       
+                       <a href=""><li> B.P.E.D</li></a>
+                       
+                       <a href=""><li> M.C.A</li></a>
+                       
+                       <a href=""><li> B.B.A </li></a>
+                       <a href=""><li> M.F.A </li></a>
+                       
+                       <a href=""><li> L.L.M </li></a>
+                       <a href=""><li> Pg Diploma </li></a>
+                      
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni6" onclick="toggleAccordion(8)">
+                <h3>8. Maharaja surajmal Brij University  <i class="fa fa-angle-double-down" style="margin-left: 74.5%;"></i> </h3>
+                <div class="accordion" id="acc8"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>M.A. ,</li></a>
+                       <a href=""><li> M.com.,</li></a>
+                       <a href=""><li> B.A </li></a>
+                       <a href=""><li>B.Com. </li></a>
+                       <a href=""><li> B.Sc. </li></a>
+                       <a href=""><li> B.Ed </li></a>
+                       <a href=""><li> B.C.A</li></a>
+                       <a href=""><li>LL.B. </li></a>
+                       <a href=""><li> BA Hons  </li></a>
+                       <a href=""><li> B.SC Hons </li></a>
+                       <a href=""><li> Pg Diploma </li></a>
+                       <a href=""><li> M.Sc </li></a>
+                       <a href=""><li> LL.M </li></a>
+                       <a href=""><li> M.Ed.</li></a>
+                       <a href=""><li>M.C.A</li></a>
+                       
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni9" onclick="toggleAccordion(9)">
+                <h3>9. Maharana Partap University Of Agriculture & Tecnology  <i class="fa fa-angle-double-down" style="margin-left: 60%;"></i> </h3>
+                <div class="accordion" id="acc9"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>B.Sc Agriculture Hons ,</li></a>
+                       <a href=""><li> B.Tech.,</li></a>
+                       <a href=""><li> M.Tech </li></a>
+                       <a href=""><li>PH.D </li></a>
+                       <a href=""><li> B.Sc (Community science Hons.) </li></a>
+                       <a href=""><li> M.Sc  </li></a>
+                       <a href=""><li> B.F.Sc</li></a>
+                       <a href=""><li>M.F.Sc </li></a>
+                       <a href=""><li> B.Sc (Agriculture Hons.)  </li></a>
+                       <a href=""><li> PH.d (Agriculture ) </li></a>
+                       <a href=""><li> B.Sc (Food Nutrition & Dietetics) Hons. </li></a>
+                       <a href=""><li> M.Sc (Agriculture) </li></a>
+                       <a href=""><li> PH.D (CW) </li></a> 
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni10" onclick="toggleAccordion(10)">
+                <h3>10. Maharshi Dayanand Saraswati university   <i class="fa fa-angle-double-down" style="margin-left: 69%;"></i> </h3>
+                <div class="accordion" id="acc10"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>M.A ,</li></a>
+                       <a href=""><li> M.Com,</li></a>
+                       <a href=""><li> M.Sc</li></a>
+                       <a href=""><li>B.A</li></a>
+                       <a href=""><li> B.A Hons </li></a>
+                       <a href=""><li> B.com  </li></a>
+                       <a href=""><li> B.com Hons</li></a>
+                       <a href=""><li> B.Sc </li></a>
+                       <a href=""><li> B.Sc Hons </li></a>
+                       <a href=""><li> M.C.A </li></a>
+                       <a href=""><li> B.C.A </li></a>
+                       <a href=""><li> B.Ed </li></a>
+                       <a href=""><li> Pg Diploma </li></a> 
+                       <a href=""><li> LL.B </li></a>
+                       <a href=""><li> B.B.A</li></a> <br> <br>
+                       <a href=""><li> M.Yoga studies &Therapy Managment </li></a>
+                       <a href=""><li> LL.M </li></a>
+                       <a href=""><li> B.P.Ed </li></a>
+                       <a href=""><li> M.L.I.S </li></a>
+                       <a href=""><li> M.Ed </li></a>
+                       <a href=""><li> M.B.A </li></a>
+                       <a href=""><li>  </li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni11" onclick="toggleAccordion(11)">
+                <h3>11. Mohan Lal Sukhadia University  <i class="fa fa-angle-double-down" style="margin-left: 75.5%;"></i> </h3>
+                <div class="accordion" id="acc11"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>M.A ,</li></a>
+                       <a href=""><li> M.Com,</li></a>
+                       <a href=""><li> M.Sc</li></a>
+                       <a href=""><li>B.A</li></a>
+                       <a href=""><li> B.A Hons  </li></a>
+                       <a href=""><li> B.com  </li></a>
+                       <a href=""><li> P.Phill.</li></a>
+                       <a href=""><li> B.Sc </li></a>
+                       <a href=""><li> D.Textile Design </li></a>
+                       <a href=""><li> M.C.A </li></a>
+                       <a href=""><li> B.C.A </li></a>
+                       <a href=""><li> B.Ed </li></a>
+                       <a href=""><li> Pg Diploma </li></a> 
+                       <a href=""><li> LL.B </li></a>
+                       <a href=""><li> B.B.A</li></a>
+                       <a href=""><li> M.L.I.s</li></a>
+                       <a href=""><li> LL.M </li></a>
+                       <a href=""><li> B.B.M </li></a>  <br> <br>
+                       <a href=""><li> Master In tourism Management </li></a>
+                       <a href=""><li> M.Ed </li></a>
+                       <a href=""><li> M.B.A </li></a>
+                       <a href=""><li> B.H.M  </li></a>
+                       <a href=""><li> B.P.Ed  </li></a>
+                       <a href=""><li> Master Of Liebrary  </li></a>
+                       <a href=""><li> M.P.Ed  </li></a>
+                       <a href=""><li> M.Sc Integrated  </li></a>
+                       <a href=""><li> Master In International Business  </li></a>
+                       <a href=""><li> M.J.M.c  </li></a>
+                       <a href=""><li> B.Lib  </li></a>  <br> <br>
+                       <a href=""><li>  M.H.R.M </li></a>
+                       <a href=""><li>  Master Of Finace & Control  </li></a>
+                       <a href=""><li> B.Pharma  </li></a>
+
+                       
+                    </ul>
+                </div>
+            </div>
+
+            <div class="university" id="uni12" onclick="toggleAccordion(12)">
+                <h3>12.National Law University   <i class="fa fa-angle-double-down" style="margin-left: 80.5%;"></i> </h3>
+                <div class="accordion" id="acc12"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>B.A.,Ll.B (Hons) ,</li></a>
+                       <a href=""><li> B.B.A. Ll.B (Hons),</li></a>
+                       
+                    </ul>
+                </div>
+            </div>
+
+            <div class="university" id="uni13" onclick="toggleAccordion(13)">
+                <h3>13. Pt. Deendayal Upadhyay Shekhawati University   <i class="fa fa-angle-double-down" style="margin-left: 65%;"></i> </h3>
+                <div class="accordion" id="acc13"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>M.A ,</li></a>
+                       <a href=""><li> M.Com,</li></a>
+                       <a href=""><li> M.Sc</li></a>
+                       <a href=""><li>B.A</li></a>
+                       <a href=""><li> B.B.A </li></a>
+                       <a href=""><li> B.com  </li></a>
+                       <a href=""><li> B.C.A</li></a>
+                       <a href=""><li> B.Sc </li></a>
+                       <a href=""><li>P.G.D.C.A  </li></a>
+                       <a href=""><li>  B.Ed  </li></a>
+                       <a href=""><li>M.Ed   </li></a>
+                      
+                    </ul>
+                </div>
+            </div>
+
+            <div class="university" id="uni14" onclick="toggleAccordion(14)">
+                <h3>14. Raj Rishi Bharathari Matsya University   <i class="fa fa-angle-double-down" style="margin-left: 71%;"></i> </h3>
+                <div class="accordion" id="acc14"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>M.A ,</li></a>
+                       <a href=""><li> M.Com,</li></a>
+                       <a href=""><li> M.Sc</li></a>
+                       <a href=""><li>B.A</li></a>
+                       <a href=""><li> B.A Hons</li></a>
+                       <a href=""><li> B.com  </li></a>
+                       <a href=""><li> B.Com (Hons)  </li></a>
+                       <a href=""><li> B.Sc (Biotech)</li></a>
+                       <a href=""><li> B.Sc </li></a>
+                       <a href=""><li> B.Sc Hons  </li></a>
+                       <a href=""><li>  B.Ed  </li></a>
+                       <a href=""><li> LL.B  </li></a>
+                       <a href=""><li> LL.M </li></a>
+                       <a href=""><li> D.L.I.S  </li></a>
+                       <a href=""><li> PG Diploma </li></a>
+                       <a href=""><li> B.C.A </li></a>
+                       <a href=""><li> B.B.A </li></a>
+                       
+                      
+                    </ul>
+                </div>
+            </div>
+
+            
+            <div class="university" id="uni15" onclick="toggleAccordion(15)">
+                <h3>15. Rajasthan Technical University   <i class="fa fa-angle-double-down" style="margin-left: 75%;"></i> </h3>
+                <div class="accordion" id="acc15"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>M.B.A,</li></a>
+                       <a href=""><li> B.Tech,</li></a>
+                       <a href=""><li> M.Tech</li></a>
+                       <a href=""><li>M.C.A</li></a>
+                       <a href=""><li> B.Arch</li></a>
+                       <a href=""><li>   </li></a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="university" id="uni16" onclick="toggleAccordion(16)">
+                <h3>16. Rajasthan ILD Skiil University   <i class="fa fa-angle-double-down" style="margin-left: 76%;"></i> </h3>
+                <div class="accordion" id="acc16"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>B.Voc,</li></a>
+                       <a href=""><li> D.Voc  </li></a>
+                       <a href=""><li>M.Voc  </li></a>
+                       <a href=""><li> Integrated M.Voc  </li></a>
+                       <a href=""><li> B.Sc,</li></a>
+                       <a href=""><li> D. Food production</li></a>
+                       <a href=""><li> D. Front Office </li></a>
+                       <a href=""><li> D. House Keeping </li></a>
+                       <a href=""><li> M.B.A  </li></a>
+                       <a href=""><li> Graphic Design & Vfx   </li></a>
+                       <a href=""><li> Advance Diploma </li></a> <br> <br>
+                       <a href=""><li> D.Financial Account </li></a>
+                       <a href=""><li> D. Food & Bevertage </li></a>
+                       <a href=""><li> D. Culinary Arts </li></a>
+                       <a href=""><li> Foundation Programme For Design </li></a>
+                       <a href=""><li> D. Para Vetrinary </li></a>
+                       <a href=""><li> Asst.Nursing  </li></a>
+                       <a href=""><li> D.Surveyor </li></a> <br> <br>
+                       <a href=""><li> D. Fire Technology 7 Industrial safety Management </li></a>
+                       <a href=""><li> D. Fire Fighting   </li></a>
+                       <a href=""><li> D. Yoga </li></a>
+                       <a href=""><li> Fire Technician </li></a>
+                       <a href=""><li>  </li></a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="university" id="uni17" onclick="toggleAccordion(17)">
+                <h3>17. Rajasthan University Of Health Science   <i class="fa fa-angle-double-down" style="margin-left: 70%;"></i> </h3>
+                <div class="accordion" id="acc17"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>B. Medical Lab Technology,</li></a>
+                       <a href=""><li>D. Medical Lab Technology,</li></a>
+                       <a href=""><li> D.Ecg </li></a>
+                       <a href=""><li>D.Ophthalmic Technician  </li></a>
+                       <a href=""><li> M.Sc  </li></a>
+                       <a href=""><li> B.Sc,</li></a>
+                       <a href=""><li> D.cardio Instrument Technology</li></a>
+                       <a href=""><li> D. Radiation Technology </li></a> <br> <br>
+                       <a href=""><li> M.B.B.S </li></a>
+                       <a href=""><li> M.Pharma. </li></a>
+                       <a href=""><li> B.Pharma.  </li></a>
+                       <a href=""><li> D.Pharma </li></a> 
+                       <a href=""><li> B.Sc Nursing </li></a>
+                       <a href=""><li> B.D.S (Dental) </li></a>
+                       <a href=""><li> M.D.S</li></a>
+                       <a href=""><li> B.P.T</li></a>
+                      
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni18" onclick="toggleAccordion(18)">
+                <h3>18. Rajasthan University Of Vetrinary & Animal Science   <i class="fa fa-angle-double-down" style="margin-left: 62%;"></i> </h3>
+                <div class="accordion" id="acc18"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li> A.H.D.P,</li></a>
+                       <a href=""><li> B.V.Sc. ,</li></a>
+                       <a href=""><li> M.V.Sc </li></a>
+                       <a href=""><li> PH.D </li></a>
+                      
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni19" onclick="toggleAccordion(19)">
+                <h3>19. Sardar Patel University Of Police, Security & Criminal Justice  <i class="fa fa-angle-double-down" style="margin-left: 55.5%;"></i> </h3>
+                <div class="accordion" id="acc19"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li> M.Tech ,</li></a>
+                       <a href=""><li> M.A / M.Sc,</li></a>
+                       <a href=""><li> B.A  </li></a>
+                       <a href=""><li> Llm In Criminal Law  </li></a>
+                       <a href=""><li> PH.D </li></a>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni17" onclick="toggleAccordion(20)">
+                <h3>20. Sri Karan Narendara Agriculture University    <i class="fa fa-angle-double-down" style="margin-left: 67.5%;"></i> </h3>
+                <div class="accordion" id="acc20"> PROGRAMS <br>  <br>
+                    
+                    <ul>
+                       <a href=""><li>B.Sc Agriculture Hons,</li></a>
+                       <a href=""><li>M.Sc Agriculture ,</li></a>
+                       <a href=""><li> PH.D Agriculture  </li></a>
+                       <a href=""><li> B.Sc Agriculture & M.B.A  </li></a>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni21" onclick="toggleAccordion(21)">
+                <h3>21. Swami Keshwanand Rajasthan Agricultural university  <i class="fa fa-angle-double-down" style="margin-left: 60%;"></i> </h3>
+                <div class="accordion" id="acc21"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li> B.Sc Agriculture Hons,</li></a>
+                       <a href=""><li> M.Sc Agriculture ,</li></a>
+                       <a href=""><li> PH.D Agriculture </li></a>
+                       <a href=""><li> B.Sc Honors Community Science  </li></a>
+                       <a href=""><li> M.Sc Community Science </li></a>
+                       <a href=""><li> PH.D ,</li></a>
+                       <a href=""><li> MBA (Agri Business Management) </li></a>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni22" onclick="toggleAccordion(22)">
+                <h3>22. University Of Kota    <i class="fa fa-angle-double-down" style="margin-left: 83.5%;"></i> </h3>
+                <div class="accordion" id="acc22"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>M.A,</li></a>
+                       <a href=""><li>B.A,</li></a>
+                       <a href=""><li> M.Sc,</li></a>
+                       <a href=""><li> M.Sc (It)  </li></a>
+                       <a href=""><li> B.SC</li></a>
+                       <a href=""><li> B.Sc (It)  </li></a>
+                       <a href=""><li> B.Ed  </li></a>
+                       <a href=""><li>M.Ed</li></a>
+                       <a href=""><li> B.com  Hons </li></a>
+                       <a href=""><li> B.com  </li></a>
+                       <a href=""><li> M.com  </li></a>
+                       <a href=""><li> B.B.A ,</li></a>
+                       <a href=""><li> B.C.A </li></a>
+                       <a href=""><li> L.L.B </li></a>
+                     
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni23" onclick="toggleAccordion(23)">
+                <h3>23. University Of Rajasthan     <i class="fa fa-angle-double-down" style="margin-left: 80%;"></i> </h3>
+                <div class="accordion" id="acc23"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li> B.A ,</li></a>
+                       <a href=""><li> B.A  Hons ,</li></a>
+                       <a href=""><li> M.A,</li></a>
+                       <a href=""><li> B.Sc,</li></a>
+                       <a href=""><li> B.Sc Integrated ,</li></a>
+                       <a href=""><li> B.Sc Hons ,</li></a>
+                       <a href=""><li> M.Sc ,</li></a>
+                       <a href=""><li> M.Sc Integrated ,</li></a>
+                       <a href=""><li> B.com </li></a>
+                       <a href=""><li> B.com Hons </li></a>
+                       <a href=""><li> M.com ,</li></a>
+                       <a href=""><li>B.C.A </li></a>
+                       <a href=""><li> M.C.A  </li></a>
+                       <a href=""><li> M.Phill </li></a>
+                       <a href=""><li> B.Tech </li></a> <br> <br>
+                       <a href=""><li> M.Tech,</li></a>
+                       <a href=""><li> Pg Diploma </li></a>
+                       <a href=""><li> B. Performing Art </li></a>
+                       <a href=""><li> B. Librain </li></a>
+                       <a href=""><li> B.Ed </li></a>
+                       <a href=""><li> M.Ed </li></a>
+                       <a href=""><li> M. Applied Management </li></a>
+                       <a href=""><li> B.V.A </li></a>
+                       <a href=""><li> M.V.A </li></a> 
+                       <a href=""><li> Integrated Engineering Course </li></a> <br> <br>
+                       <a href=""><li> M.Urban & Regional Planning </li></a>
+                       <a href=""><li> M. Mass communication </li></a>
+                       <a href=""><li> B.S.W </li></a>
+                       <a href=""><li> M.J.M.C</li></a>
+                       <a href=""><li> B.vocation  </li></a>
+                       <a href=""><li> LL.B  </li></a>
+                       <a href=""><li> LL.M </li></a>
+                       <a href=""><li> M.L.I.S   </li></a>
+                       <a href=""><li> B.B.M </li></a>
+                       <a href=""><li>B.P.E.D </li></a>
+                       <a href=""><li> M.P.E.D </li></a>
+                       <a href=""><li> M. Finace & Control </li></a> <br> <br>
+                       <a href=""><li> B. sanskrit Steam (sanskrit) </li></a>
+                       <a href=""><li> M. Liebrary</li></a>
+                       <a href=""><li> M. Educational Administration </li></a>
+                       <a href=""><li> M.H.R.M </li></a>
+                       <a href=""><li> M. Music (Voacl) </li></a>
+                       <a href=""><li> M.F.A </li></a>
+                       <a href=""><li> B.B.A </li></a>
+                       <a href=""><li> M. International Business </li></a>
+                       <a href=""><li> Pg certificate </li></a>
+                       <a href=""><li> B.J & M.C </li></a> <br><br> 
+                       <a href=""><li> D. Physical Education  </li></a>
+                       <a href=""><li> M. Tourism Management </li></a>
+                       <a href=""><li> B. Management studies </li></a>
+                       <a href=""><li> B. Tourism & Travels  </li></a>
+                       <a href=""><li> M. Banking & Insurance </li></a>
+                       <a href=""><li> B.A Deaf Dumb & Visualy Impaired   </li></a>
+                       <a href=""><li>   </li></a>
+                      
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni24" onclick="toggleAccordion(24)">
+                <h3>24. Vardhman Mahaveer Open University   <i class="fa fa-angle-double-down" style="margin-left: 71.5%;"></i> </h3>
+                <div class="accordion" id="acc24"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                        <a href=""><li> B.A. Programme   </li></a>
+                        <a href=""><li> B.A    </li></a>
+                       <a href=""><li> M.A</li></a>
+                       <a href=""><li> B.Com Programme   </li></a>
+                       <a href=""><li> M.Com </li></a>
+                       <a href=""><li> B.J  </li></a>
+                       <a href="agu/index.html"><li> M.J. </li></a>
+                       <a href=""><li> B.Sc.A  </li></a>
+                       <a href=""><li> B.Sc.P </li></a>
+                       <a href=""><li> B.Sc  </li></a>
+                       <a href=""><li> M.Sc </li></a>
+                       <a href=""><li> M.S.C.C.S </li></a>
+                       <a href=""><li> B.S.W </li></a>
+                       <a href=""><li> M.S.W </li></a>
+                       <a href=""><li> P.G.D.C.A </li></a>
+                       <a href=""><li> B.A.A </li></a>
+                       <a href=""><li> B.A.P </li></a><br><br>
+                       <a href=""><li> B.B.A </li></a>
+                       <a href=""><li> M.B.A </li></a>
+                       <a href=""><li> B.C.A  </li></a>
+                       <a href=""><li> M.C.A </li></a>
+                       <a href=""><li> B.C.p  </li></a> 
+                       <a href=""><li> C.A.L  </li></a>
+                       <a href=""><li> C.C.E  </li></a>
+                       <a href=""><li> C.C.P </li></a>
+                       <a href=""><li> C.F.E </li></a>
+                       <a href=""><li> C.F.n </li></a>
+                       <a href=""><li> C.F.J </li></a>
+                       <a href=""><li> C.I.n  </li></a>
+                       <a href=""><li> C.I.J </li></a>
+                       <a href=""><li> C.I.Y </li></a>
+                       <a href=""><li> C.P.G.M </li></a>
+                       <a href=""><li> C.P.L </li></a>
+                       <a href=""><li> C.P.N.M </li></a>
+                       <a href=""><li> C.P.R.P </li></a>
+                       <a href=""><li> C.R.L.C </li></a><br><br>
+                       <a href=""><li> C.T.E </li></a>
+                       <a href=""><li> D.A.L </li></a>
+                       <a href=""><li> D.C.T </li></a>
+                       <a href=""><li> D.G.A </li></a>
+                       <a href=""><li> D.J.M.C </li></a>
+                       <a href=""><li> D.P.L </li></a>
+                       <a href=""><li> D.W.S.M  </li></a>
+                       <a href=""><li> M.B.O.L </li></a>
+                       <a href=""><li>  P.G.D.C.A </li></a>
+                       <a href=""><li> P.G.D.C.A.A </li></a>
+                       <a href=""><li> P.G.D.G.C  </li></a>
+                       <a href=""><li> P.G.D.G.N  </li></a>
+                       <a href=""><li> P.G.D.L.l  </li></a>
+                       <a href=""><li> P.G.D.W.R </li></a>
+                       <a href=""><li> D.L.I.S </li></a>
+                       <a href=""><li> D.S.P.R </li></a><br><br>
+                       <a href=""><li> D.W.S.M </li></a>
+                       <a href=""><li> B.Ed </li></a>
+                       <a href=""><li> B.L.I.S </li></a>
+                       <a href=""><li> M.L.I.S </li></a>
+                       <a href=""><li> C.H.L </li></a>
+                       <a href=""><li>  C.H.R </li></a>
+                       <a href=""><li>  </li></a>
+                      
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni25" onclick="toggleAccordion(25)">
+                <h3>25. Haridev Joshi University Of Journalism & Mass Communication   <i class="fa fa-angle-double-down" style="margin-left: 54%;"></i> </h3>
+                <div class="accordion" id="acc25"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li> BA-Jmc graduation,</li></a>
+                       <a href=""><li> Ba-Jmc Honours,</li></a>
+                       <a href=""><li> MA (Media Studies) </li></a>
+                       <a href=""><li>MA (Electronic Media)  </li></a>
+                       <a href=""><li> MA (New Media) </li></a>
+                       <a href=""><li> Ma (Development communication),</li></a>
+                       <a href=""><li> D. Brodcast Journalism</li></a> <br><br>
+                       <a href=""><li> D. Phothograpy</li></a>
+                       <a href=""><li> D.Desktop Publishing </li></a>
+                       <a href=""><li> D.Public Health & mass communication </li></a>
+                      
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni26" onclick="toggleAccordion(26)">
+                <h3>26. Bikaner Technical University  <i class="fa fa-angle-double-down" style="margin-left: 76.9%;"></i> </h3>
+                <div class="accordion" id="acc26"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li>B.Tech,</li></a>
+                       <a href=""><li>M.Tech,</li></a>
+                       <a href=""><li> Management </li></a>
+                      
+                    </ul>
+                </div>
+            </div>
+            <div class="university" id="uni27" onclick="toggleAccordion(27)">
+                <h3>27. Dr. Bhimrao Ambedkar Law University <i class="fa fa-angle-double-down" style="margin-left: 70%;"></i> </h3>
+                <div class="accordion" id="acc27"> PROGRAMS <br> <br>
+                    
+                    <ul>
+                       <a href=""><li> Master OF LAW</li></a>
+                       
+                      
+                    </ul>
+                </div>
+            </div>
+        </mark>
+            <!-- Add all other universities in the same format -->
+        </div>
+        <div class="summry">
+            <p>
+                
+            </p>
+        </div>
+    
+
+
+
+    <script src="notesbakkery.js">
+
+    </script>
+
+    <div class="footer">
+        <h4>ABOUT US</h4>
+        <P>NotesBakery always help you for your study, notes bakery provied you free metarial for your study,
+            like quize and notes and video lecture.</P>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> By Manoj Kumar</p>
+        </h4>
+        <hr>
+        <p>COPYRIGHT RESEVERD @-2024 BY NotesBakery</p>
+    </div>
+
+</body>
+
+</html>

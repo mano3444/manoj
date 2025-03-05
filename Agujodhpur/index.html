@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Agriculture University Jodhpur - Notesbakery</title>
+   
+</head>
+<body>
+    <h2>Agriculture University Of Jodhpur</h2>
+    <div class="container">
+        <label for="program">Select Your Program:</label>
+        <select id="program" onchange="updateProgram()">
+            <option value="" disabled selected>Choose Program</option>
+            <option value="Bsc hones">BSc Hons</option>
+            <option value="BUMS">B.U.M.S</option>
+            <option value="BHMS">B.H.M.S</option>
+        </select>
+
+        <label for="year">Select Your Year:</label>
+        <select id="year" onchange="updateSubjects()">
+            <option value="" disabled selected>Choose Year</option>
+            <option value="1">1st Year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4rd Year</option>
+        </select>
+
+        <label for="subject">Select Your Subject:</label>
+        <select id="subject" onchange="updateNotes()">
+            <option value="" disabled selected>Choose Subject</option>
+        </select>
+    </div>
+    
+    <div class="info-box" id="programInfo"></div>
+    
+    <div class="notes-container" id="notesDisplay"></div>
+    <div class="playlist-container" id="playlistDisplay"></div>
+
+    <script src="agu.js">  </script>
+       
+   
+</body>
+</html>
