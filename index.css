@@ -459,7 +459,7 @@ hr {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin: auto;
     position: relative;
-    margin-left: 70%;
+    margin-left: 40%;
     margin-bottom: 15px;
     margin-top: 15px;
 }
@@ -479,7 +479,7 @@ input {
     border-top: 1px solid #ddd;
     /* position: absolute; */
     width: calc(100% - 40px);
-    background: white;
+    /* background: white; */
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     display: none;
@@ -498,7 +498,7 @@ input {
 
 .university-list {
     /* margin-top: 30px; */
-    text-align: center;
+    text-align: left;
     width: 90%;
     margin: auto;
     margin-left: 50px;
@@ -520,15 +520,17 @@ input {
 }
 
 h3 {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
+    text-align: left;
     cursor: pointer;
     font-size: 18px;
     background: #2222acb9;
     color: white;
     padding: 10px;
     border-radius: 5px;
+
 }
 
 .accordion {
@@ -577,9 +579,9 @@ mark {
 }
 
 
-@media (max-width: 1500px) {
+@media (max-width: 950px) {
     .university {
-        width: 95%;
+        width: 100%;
         /* max-width: 100%; */
     }
     .university .fa{
@@ -589,7 +591,10 @@ mark {
         font-size: 18px;
         padding: 10px;
     }
+.search-container{
+    /* min-width: 80%; */
 
+}
     .accordion {
         font-size: 14px;
         padding: 12px;
@@ -604,7 +609,7 @@ mark {
 
 
 /* 📱 Mobile Screens */
-@media (max-width: 600px) {
+@media (max-width: 950px) {
     h3 {
         font-size: 16px;
         padding: 8px;
