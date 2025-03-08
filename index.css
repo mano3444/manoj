@@ -147,10 +147,12 @@ a:hover {
     .slider {
         width: 100%;
         margin-left: 0;
+        display: none;
     }
 
     .image {
         margin-left: 0;
+        display: none;
     }
 
     .footer {
@@ -336,9 +338,9 @@ a:hover {
 
 }
 
-@media (max-width:974px) {
+@media (max-width:1000px) {
     .university {
-        width: 100%;
+        width: 40%;
 
     }
 
@@ -591,10 +593,7 @@ mark {
         font-size: 18px;
         padding: 10px;
     }
-.search-container{
-    /* min-width: 80%; */
 
-}
     .accordion {
         font-size: 14px;
         padding: 12px;
