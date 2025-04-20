@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bikaner Technical University - NotesBakery</title>
+  <link rel="stylesheet" href="btu.css">
+ 
+</head>
+<body>
+
+  <h2>Bikaner Technical University</h2>
+
+  <div class="container">
+    <select id="program" onchange="updateProgram()">
+      <option value="" disabled selected>Choose Program</option>
+      <option value="B.Tech">B.Tech</option>
+      <option value="B.Design">B.Design</option>
+      <option value="BCA">BCA</option>
+      <option value="BBA">BBA</option>
+      <option value="M.Tech">M.Tech</option>
+      <option value="MBA">MBA</option>
+      <option value="MBA (Agri. Buissnes)">MBA (Agri. Buissnes)</option>
+      <option value="MCA">MCA</option>
+      <option value="Integreted program">Integreted program</option>
+    </select>
+
+    <select id="branch" onchange="updateSubjects()">
+      <option value="" disabled selected>Choose Branch</option>
+    </select>
+
+    <select id="year" onchange="updateSubjects()">
+      <option value="" disabled selected>Choose Year</option>
+    </select>
+
+    <select id="subject" onchange="updateNotes()">
+      <option value="" disabled selected>Choose Subject</option>
+    </select>
+  </div>
+
+  <div class="info-box" id="programInfo"></div>
+
+  <div class="notes-container" id="notesDisplay"></div>
+  <div class="playlist-container" id="playlistDisplay"></div>
+
+  <script src="btu.js">
+  </script>
+</body>
+</html>

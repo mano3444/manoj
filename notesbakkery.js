@@ -34,7 +34,7 @@ const resultList = document.getElementById("resultList");
 
 // 🎓 Universities Data List
 const universities = [
-    { name: "Agriculture University Jodhpur", id: "uni1" },
+    { name: "Bikaner Technical University ", id: "uni1" },
     { name: "Agriculture University Kota", id: "uni2" },
     { name: "Dr. Sarvepalli Radhakrishnan Rajasthan Ayurved University", id: "uni3" },
     { name: "Govind Guru Janjatiya University", id: "uni4" },
@@ -59,7 +59,7 @@ const universities = [
     { name: "University Of Rajasthan", id: "uni23" },
     { name: "Vardhman Mahaveer Open University", id: "uni24" },
     { name: "Haridev Joshi University Of Journalism & Mass Communication", id: "uni25" },
-    { name: "Bikaner Technical University", id: "uni26" },
+    { name: "Agriculture University Jodhpur ", id: "uni26" },
     { name: "Dr. Bhimrao Ambedkar Law University", id: "uni27" },
 ];
 
@@ -148,4 +148,4 @@ document.addEventListener("click", function (event) {
     }
 });
 
-// ----------------------------------------------------------alll university of rajasthan --------------------
+// ----------------------------------------------------------pyq page js ------- --------------------

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NotesBakery HOME</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous">
+
+  </script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa fa-bars"></i>
+    </label>
+    <label class="logo">NotesBakery</label>
+    <ul>
+      <li><a class="active" href="index.html"> HOME</a> </li>
+      <li><a href="syllbus & notes.html"> Syllabus & Notes</a></li>
+      <li><a href="old paper.html">PYQ</a></li>
+
+      <li> <a href="about us.html">About us </a></li>
+      <li><a href="contact us.html">Contact us</a></li>
+      <li> <a href="FAQS.html">FAQ's</a></li>
+    </ul>
+  </nav><br><br><br>
+  <div class="faq-container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-grid">
+      
+      <div class="faq-item">
+        <p class="question">Q: Is system ka use kaise karein?</p>
+        <p class="answer">A: Home, syllabus, PYQ aur notes sections se aap required content access kar sakte hain.</p>
+      </div>
+  
+      <div class="faq-item">
+        <p class="question">Q: Kya main mobile par bhi is system ko use kar sakta hoon?</p>
+        <p class="answer">A: Haan, yeh system mobile friendly hai aur responsive design ka use karta hai.</p>
+      </div>
+  
+      <div class="faq-item">
+        <p class="question">Q: Kya sabhi subjects ke chapters available hain?</p>
+        <p class="answer">A: Major CSE subjects ke notes aur chapters system mein regularly update kiye jaate hain.</p>
+      </div>
+  
+      <!-- aur bhi FAQs isi tarah add karo -->
+  
+    </div>
+  </div>
+  
+    <script>
+  const questions = document.querySelectorAll(".faq-item .question");
+
+  questions.forEach(q => {
+    q.addEventListener("click", () => {
+      const answer = q.nextElementSibling;
+      answer.style.display = (answer.style.display === "block") ? "none" : "block";
+    });
+  });
+</script>
+
+
+  
+  <div class="footer">
+    <h4>ABOUT US</h4>
+    <P>NotesBakery always help you for your study, notes bakery provied you free metarial for your study,
+      like quize and notes and video lecture.</P>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> By Manoj Kumar</p>
+    </h4>
+    <hr>
+    <p>COPYRIGHT RESEVERD @-2024 BY NotesBakery</p>
+  </div>
+
+</body>
+
+</html>

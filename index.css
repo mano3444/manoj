@@ -238,7 +238,7 @@ a:hover {
 
 @media (max-width:952px) {
     .slider {
-        width: 100%;
+        width: 97%;
         margin-left: 0;
     }
 
@@ -726,3 +726,295 @@ label{
     font-size: 19px;
     color: #ff0404;
 }
+
+/* -----------------------------------pyq page ----------------------- */
+
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+
+  .select-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .select-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 220px;
+  }
+
+  .select-box label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+
+  select {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    transition: 0.3s;
+  }
+
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  .chapter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .chapter-box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+  }
+
+  .chapter-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .chapter-box strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .chapter-box a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  /* ============about us page-------------------- */
+  
+    
+    .a-container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      /* width: 100%; */
+      text-align: center;
+      
+
+    }
+  
+    
+    h1, h2 {
+      color: #d35400;
+    }
+    h1 {
+      font-size: 2.5rem;
+      display: block;
+      margin-bottom: 10px;
+    }
+    h2 {
+      margin-top: 30px;
+      font-size: 1.6rem;
+    }
+    p, li {
+      font-size: 1.05rem;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .highlight {
+      background-color: #ffe8d6;
+      padding: 10px 15px;
+      border-left: 5px solid #d35400;
+      margin: 20px 0;
+      font-style: italic;
+    }
+    .timeline {
+      margin: 20px 0;
+      padding-left: 20px;
+      border-left: 3px solid #d35400;
+    }
+    .timeline-item {
+      margin-bottom: 10px;
+    }
+    .cta {
+      background-color: #f8c291;
+      padding: 15px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+    
+    /* Stacked layout for small screens */
+    @media screen and (max-width: 768px) {
+      .a-container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      p, ul, li {
+        font-size: 1rem;
+      }
+    }
+
+    /* Flexbox layout for large screens */
+    .about-section {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    /* ============contact us page-------------- */
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+        background-color: #f8f8f8;
+        font-family: Arial, sans-serif;
+      }
+      
+      .contact-form {
+        width: 45%;
+      }
+      
+      .contact-info  {
+        background-color: #d32f2f;
+        width: 50%;
+        height: 200px;
+        margin-top: 6%;
+        border-radius: 4%;
+        /* opacity: 2px; */
+
+      }
+      .contact-info h2 ,p{
+        color: #f1e8e8;
+        margin-left: 2%;
+      }
+      
+      .contact-form label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #333;
+      }
+      
+      .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .contact-form button {
+        background-color: #d32f2f;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .credits {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #777;
+      }
+      
+@media screen and (max-width: 1024px) {
+    .contact-form, .contact-info {
+      width: 100%;
+      margin-top: 20px;
+    }
+    
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 14px;
+    }
+  
+    .contact-form button {
+      width: 100%;
+    }
+  
+    .contact-info {
+      height: auto;
+    }
+  }
+/* ===============faqs */
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+    color: #2563eb;
+    margin-bottom: 30px;
+  }
+  .faq-item {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9fafb;
+    cursor: pointer;
+  }
+  .faq-item .answer {
+    display: none;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .faq-item .question {
+    font-weight: bold;
+    color: #007BFF;
+    cursor: pointer;
+  }
+  
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+      
+
